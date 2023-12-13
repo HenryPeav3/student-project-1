@@ -1,77 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Time Off Calendar</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Time Off Calendar</title>
 </head>
 <body class="text-center">
-    <h1 class="mb-10 mt-10 font-bold text-3xl text-center">December 2023 Calendar</h1>
-    <input type="text" placeholder="Enter City" class="text-center border mb-10 mr-5 py-2 px-4">
-    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Search</button>
-      <table class="w-full border-collapse">
-        <thead>
-          <tr>
-            <th class="border px-6 py-6 bg-slate-300">Sun</th>
-            <th class="border px-6 py-6 bg-slate-300">Mon</th>
-            <th class="border px-6 py-6 bg-slate-300">Tue</th>
-            <th class="border px-6 py-6 bg-slate-300">Wed</th>
-            <th class="border px-6 py-6 bg-slate-300">Thu</th>
-            <th class="border px-6 py-6 bg-slate-300">Fri</th>
-            <th class="border px-6 py-6 bg-slate-300">Sat</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="border px-6 py-6"></td>
-            <td class="border px-6 py-6"></td>
-            <td class="border px-6 py-6"></td>
-            <td class="border px-6 py-6"></td>
-            <td class="border px-6 py-6"></td>
-            <td class="border px-6 py-6">1</td>
-            <td class="border px-6 py-6">2</td>
-          </tr>
-          <tr>
-            <td class="border px-6 py-6">3</td>
-            <td class="border px-6 py-6">4</td>
-            <td class="border px-6 py-6">5</td>
-            <td class="border px-6 py-6">6</td>
-            <td class="border px-6 py-6">7</td>
-            <td class="border px-6 py-6">8</td>
-            <td class="border px-6 py-6">9</td>
-          </tr>
-          <tr>
-            <td class="border px-6 py-6">10</td>
-            <td class="border px-6 py-6">11</td>
-            <td class="border px-6 py-6">12</td>
-            <td class="border px-6 py-6">13</td>
-            <td class="border px-6 py-6">14</td>
-            <td class="border px-6 py-6">15</td>
-            <td class="border px-6 py-6">16</td>
-          </tr>
-          <tr>
-            <td class="border px-6 py-6">17</td>
-            <td class="border px-6 py-6">18</td>
-            <td class="border px-6 py-6">19</td>
-            <td class="border px-6 py-6">20</td>
-            <td class="border px-6 py-6">21</td>
-            <td class="border px-6 py-6">22</td>
-            <td class="border px-6 py-6">23</td>
-          </tr>
-          <tr>
-            <td class="border px-6 py-6">24</td>
-            <td class="border px-6 py-6">25</td>
-            <td class="border px-6 py-6">26</td>
-            <td class="border px-6 py-6">27</td>
-            <td class="border px-6 py-6">28</td>
-            <td class="border px-6 py-6">39</td>
-            <td class="border px-6 py-6">30</td>
-          </tr>
-          <tr>
-            <td class="border px-6 py-6">31</td>
-        </tbody>
-      </table>
-  </body>
-  <script src=script.js></script>
-  </html>
+  <h1 class="mb-10 mt-10 font-bold text-3xl text-center">December 2023 Calendar</h1>
+  <input id="search-input" type="text" placeholder="Enter City" class="text-center border mb-10 mr-5 py-2 px-4">
+  <button id="search-button"
+    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Search</button>
+  <table class="w-full border-collapse">
+    <thead>
+      <tr>
+        <th class="border px-6 py-6 bg-slate-300">Sun</th>
+        <th class="border px-6 py-6 bg-slate-300">Mon</th>
+        <th class="border px-6 py-6 bg-slate-300">Tue</th>
+        <th class="border px-6 py-6 bg-slate-300">Wed</th>
+        <th class="border px-6 py-6 bg-slate-300">Thu</th>
+        <th class="border px-6 py-6 bg-slate-300">Fri</th>
+        <th class="border px-6 py-6 bg-slate-300">Sat</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border px-6 py-6"></td>
+        <td class="border px-6 py-6"></td>
+        <td class="border px-6 py-6"></td>
+        <td class="border px-6 py-6"></td>
+        <td class="border px-6 py-6"></td>
+        <td class="border px-6 py-6"></td>
+        <td class="border px-6 py-6"></td>
+      </tr>
+      <tr>
+    </tbody>
+  </table>
+</body>
+<script src=script.js></script>
+</html>
